@@ -8,5 +8,3 @@ The images are taken from the official
 
 The music
 is [mine](https://youtu.be/xYQYMzViT8o)
-
-![Interface](./assets/Preview.webp)
