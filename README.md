@@ -1,10 +1,10 @@
-# Stalker2
+# Stalker2_Music_Portfolio
 
-Site with side slider and parallax effect. I like the Stalker series of games,
-so for improving my skills as a frontend developer I wrote this small site.
+This site is my music portfolio special for
+[GSC Game World](https://www.gsc-game.com/index.php?lang=en#home-slider)
 
 The images are taken from the official
-[Facebook](https://www.facebook.com/officialstalker) page of Stalker2. 
+[Facebook](https://www.facebook.com/officialstalker) page of Stalker2.
 
 The music
 is [mine](https://youtu.be/xYQYMzViT8o)
