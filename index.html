@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stalker 2</title>
+
+    <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css" />
+    <script src="libs/swiper/swiper-bundle.min.js" defer></script>
+    <script src="libs/particles/particles.js" defer></script>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <a
+      class="logo"
+      href="https://www.stalker2.com/ua"
+      target="_blank"
+      rel="noopener noreferrer"
+    ></a>
+    <a
+      class="myLogo"
+      href="https://www.facebook.com/Sorokolit.music"
+      target="_blank"
+      rel="noopener noreferrer"
+    ></a>
+
+    <div class="player">
+      <ul>
+        <li class="player-item">
+          <audio preload="auto" id="audio" class="audio" loop controls>
+            <source src="Audio/Sorokolit_Call of Space.mp3" type="audio/mpeg" />
+            Your browser does not support the <code>audio</code> element.
+          </audio>
+          <p class="audio-title">Call of Space</p>
+        </li>
+
+        <li class="player-item">
+          <audio preload="auto" id="audio" class="audio" loop controls>
+            <source src="Audio/Sorokolit_Captive Soul.mp3" type="audio/mpeg" />
+            Your browser does not support the <code>audio</code> element.
+          </audio>
+          <p class="audio-title">Captive Soul</p>
+        </li>
+        <li class="player-item">
+          <audio preload="auto" id="audio" class="audio" loop controls>
+            <source src="Audio/Sorokolit_Mistic.mp3" type="audio/mpeg" />
+            Your browser does not support the <code>audio</code> element.
+          </audio>
+          <p class="audio-title">Mistic</p>
+        </li>
+
+        <li class="player-item">
+          <audio preload="auto" id="audio" class="audio" loop controls>
+            <source src="Audio/Sorokolit_Little Star.mp3" type="audio/mpeg" />
+            Your browser does not support the <code>audio</code> element.
+          </audio>
+          <p class="audio-title">Little Star</p>
+        </li>
+        <li class="player-item">
+          <audio preload="auto" id="audio" class="audio" loop controls>
+            <source src="Audio/Sorokolit_River Song.mp3" type="audio/mpeg" />
+            Your browser does not support the <code>audio</code> element.
+          </audio>
+          <p class="audio-title">River Song</p>
+        </li>
+        <li class="player-item">
+          <audio preload="auto" id="audio" class="audio" loop controls>
+            <source src="Audio/Sorokolit_Cyberpunck.mp3" type="audio/mpeg" />
+            Your browser does not support the <code>audio</code> element.
+          </audio>
+          <p class="audio-title">Cyberpunck</p>
+        </li>
+        <li class="player-item">
+          <audio preload="auto" id="audio" class="audio" loop controls>
+            <source src="Audio/Sorokolit_Sad Soul.mp3" type="audio/mpeg" />
+            Your browser does not support the <code>audio</code> element.
+          </audio>
+          <p class="audio-title">Sad Soul</p>
+        </li>
+        <li class="player-item">
+          <audio preload="auto" id="audio" class="audio" loop controls>
+            <source
+              src="Audio/Sorokolit_Spase Vibration.mp3"
+              type="audio/mpeg"
+            />
+            Your browser does not support the <code>audio</code> element.
+          </audio>
+          <p class="audio-title">Space Vibration</p>
+        </li>
+      </ul>
+    </div>
+    <!-- 
+    <button id="playPauseBtn" class="button__play" onClick="playPause()">
+      <svg xmlns="http://www.w3.org/2000/svg" height="40" width="40">
+        <path
+          d="M23.333 34.542v-2.875q3.959-1.125 6.417-4.355 2.458-3.229 2.458-7.354t-2.458-7.375q-2.458-3.25-6.417-4.333V5.375q5.167 1.167 8.417 5.229Q35 14.667 35 19.958q0 5.292-3.25 9.354-3.25 4.063-8.417 5.23ZM5 25V15h6.667L20 6.667v26.666L11.667 25Zm17.792 1.875V13.042q2.166.791 3.437 2.708Q27.5 17.667 27.5 20q0 2.292-1.292 4.208-1.291 1.917-3.416 2.667Z"
+        />
+      </svg>
+    </button> -->
+
+    <!-- слайдер -->
+    <div class="swiper slider">
+      <!-- обгортка слайдера -->
+      <!-- перший тег для слайдера, другий для стилізації -->
+      <div class="swiper-wrapper slider__wrapper">
+        <!-- слайд 1 -->
+        <div class="swiper-slide slider__item">
+          <div class="slider-layer s1l1" data-swiper-parallax="30%"></div>
+          <div class="slider-layer s1l2" data-swiper-parallax="27%"></div>
+          <canvas
+            class="particles slider-layer"
+            data-color="#7c8f55"
+            data-swiper-parallax="24%"
+          ></canvas>
+          <div class="slider-layer s1l3" data-swiper-parallax="20%"></div>
+          <div class="slider-layer s1l4" data-swiper-parallax="15%"></div>
+          <div class="slider-layer s1l5" data-swiper-parallax="0%"></div>
+        </div>
+        <!-- слайд 2 -->
+        <div class="swiper-slide slider__item">
+          <div class="slider-layer s2l1" data-swiper-parallax="30%"></div>
+          <div class="slider-layer s2l2" data-swiper-parallax="27%"></div>
+          <canvas
+            class="particles slider-layer"
+            data-color="#c8c8c8"
+            data-swiper-parallax="24%"
+          ></canvas>
+          <div class="slider-layer s2l3" data-swiper-parallax="23%"></div>
+          <div class="slider-layer s2l4" data-swiper-parallax="0%"></div>
+        </div>
+
+        <!-- слайд 3 -->
+        <div class="swiper-slide slider__item">
+          <div class="slider-layer s3l1" data-swiper-parallax="50%"></div>
+          <canvas
+            class="particles slider-layer"
+            data-color="#a31c1c"
+            data-swiper-parallax="24%"
+          ></canvas>
+          <div class="slider-layer s3l2" data-swiper-parallax="20%"></div>
+          <div class="slider-layer s3l3" data-swiper-parallax="25%"></div>
+          <div class="slider-layer s3l4" data-swiper-parallax="0%"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- кастомний курсор -->
+<!-- Музика -->
